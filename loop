@@ -1,5 +1,7 @@
 import os
 
+os.system('clear')
+
 message = input("Type Your Message: ")
 range_x = int(input("Message Loop Num: "))
 
