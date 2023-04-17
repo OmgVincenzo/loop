@@ -2,11 +2,11 @@ import os
 
 os.system('clear')
 
-message = input("Type Your Message: ")
-range_x = int(input("Message Loop Num: "))
+message = input("[>] Type Your Message: ")
+range_num = int(input("[>] Type Amount: "))
 
 os.system('clear')
 
-for i in range(range_x):
+for i in range(range_num):
              
       print(message)
